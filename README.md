@@ -4,6 +4,16 @@
 
 BallRoll is a level-based mobile puzzle game designed around progressive challenge, player learning, and short repeatable sessions. The project was developed from gameplay structure and level progression through release hardening and native iOS packaging.
 
+## Showcase
+
+<p align="center">
+  <img src="assets/ballroll-01-core-mechanic.png" alt="BallRoll core mechanic" width="260" />
+  <img src="assets/ballroll-02-target-complete.png" alt="BallRoll target completion" width="260" />
+  <img src="assets/ballroll-03-difficulty-progression.png" alt="BallRoll difficulty progression" width="260" />
+</p>
+
+The screenshots show the product progression from the core two-ball mechanic, through a completed puzzle state, to later levels with more balls and higher puzzle complexity.
+
 ## Product Focus
 
 The core product challenge was not only creating individual puzzles, but structuring a 100-level experience that could teach the player, increase complexity gradually, preserve progress reliably, and remain stable across mobile sessions.
@@ -68,7 +78,11 @@ These signals would provide a basis for level reordering, difficulty tuning, and
 
 **iOS release preparation**
 
-The public App Store link will be added after release.
+The App Store link will be added after release.
+
+## Developer Website
+
+[ozankazbas.github.io](https://ozankazbas.github.io)
 
 ## Support
 
