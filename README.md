@@ -2,7 +2,9 @@
 
 **Mobile puzzle game with 100 handcrafted levels**
 
-BallRoll is a level-based mobile puzzle game designed around progressive challenge, player learning, and short repeatable sessions. The project was developed from gameplay structure and level progression through release hardening and native iOS packaging.
+BallRoll is a level-based mobile puzzle game designed around progressive challenge, player learning, and short repeatable sessions. The project was taken from gameplay structure and level progression through release hardening, native iOS packaging, App Store review, and public release.
+
+**[View BallRoll on the App Store](https://apps.apple.com/tr/app/ballroll-logic-puzzle/id6817675040?l=tr)**
 
 ## Showcase
 
@@ -26,7 +28,7 @@ The core product challenge was not only creating individual puzzles, but structu
 - Used repeated playtesting to identify unclear, frustrating, or inconsistent gameplay states
 - Balanced challenge with accessibility so early levels teach the interaction before later levels increase complexity
 - Treated level order and difficulty as product decisions rather than isolated content creation
-- Took the game from web prototype to physical-device iOS validation and release preparation
+- Took the game from web prototype through physical-device validation, App Store review, and public iOS release
 
 ## Product Decisions
 
@@ -44,9 +46,9 @@ Input guards, focus handling, background/foreground lifecycle behavior, and safe
 
 ## Metrics & Experimentation Framework
 
-The current version was built and validated primarily through structured playtesting and QA rather than large-scale live player data.
+The release was built and validated primarily through structured playtesting, solver-backed tooling, automated testing, and QA rather than large-scale live player data.
 
-For a live release, the next product validation layer would focus on metrics such as:
+With the game now publicly distributed, the next product validation layer can focus on metrics such as:
 
 - level completion rate
 - attempts per level
@@ -55,9 +57,9 @@ For a live release, the next product validation layer would focus on metrics suc
 - progression drop-off by level
 - difficulty spikes across the level sequence
 
-These signals would provide a basis for level reordering, difficulty tuning, and controlled gameplay experiments. No production A/B-test results are claimed for the current version.
+These signals can provide a basis for level reordering, difficulty tuning, and controlled gameplay experiments. No production A/B-test results are claimed for the current version.
 
-## Quality & Release Readiness
+## Quality & Release
 
 - Exactly 100 production levels
 - 180 automated tests in the release-hardened web build
@@ -69,6 +71,7 @@ These signals would provide a basis for level reordering, difficulty tuning, and
 - Zero runtime dependencies in the hardened web build
 - Native iOS packaging with Capacitor
 - Physical-device validation
+- Public App Store release
 
 ## Tech Stack
 
@@ -76,9 +79,9 @@ These signals would provide a basis for level reordering, difficulty tuning, and
 
 ## Current Status
 
-**iOS release preparation**
+**Live on the App Store**
 
-The App Store link will be added after release.
+[Download BallRoll on the App Store](https://apps.apple.com/tr/app/ballroll-logic-puzzle/id6817675040?l=tr)
 
 ## Developer Website
 
